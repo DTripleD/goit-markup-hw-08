@@ -11,18 +11,21 @@
 
     border-radius: 4px;
 
+    padding-top: 15px;
+    padding-bottom: 15px;
 
-        @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
 
-        }
+    @media screen and (min-width: 768px) {
+
+    }
 
 
         
-        @media screen and (min-width: 1600px) {
-            height: 120px;
-            width: 270px;
-            margin-bottom: 30px;
-        }
+    @media screen and (min-width: 1600px) {
+        height: 120px;
+        width: 270px;
+    }
 }
 
 .soclinks {
