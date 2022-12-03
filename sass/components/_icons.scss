@@ -10,9 +10,19 @@
     background-color: #F5F4FA;
 
     border-radius: 4px;
-    height: 120px;
-    width: 270px;
-    margin-bottom: 30px;
+
+
+        @media screen and (min-width: 768px) {
+
+        }
+
+
+        
+        @media screen and (min-width: 1600px) {
+            height: 120px;
+            width: 270px;
+            margin-bottom: 30px;
+        }
 }
 
 .soclinks {

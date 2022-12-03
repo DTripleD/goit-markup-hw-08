@@ -1,10 +1,25 @@
 .benefits__list {
-    display: flex;
-    align-items: flex-start;
+    display: block;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        
+    }
+
+    @media screen and (min-width: 1600px) {
+        display: flex;
+        align-items: flex-start;
+    }
 }
 
 .benefits__item {
-    width: 270px;
+
+
+    @media screen and (min-width: 768px) {}
+        
+    @media screen and (min-width: 1600px) {
+        width: 270px;
+    }
 }
 
 .benefits__item:not(:last-child) {
