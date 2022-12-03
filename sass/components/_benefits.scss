@@ -1,7 +1,10 @@
 .benefits__list {
-    text-align: center;
+    
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 1599px){
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
