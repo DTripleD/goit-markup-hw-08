@@ -1,11 +1,15 @@
 .container__header{
     display: flex;
-    padding: 10px 15px;
 }
 
 .nav{
     @media screen and (max-width: 767px){
         display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -67,12 +71,8 @@
     @media screen and (min-width: 768px) {
         flex-wrap: wrap;
         gap: 10px;
-        margin-right: auto;
+        flex-direction: column;
     }
-}
-
-.contacts__info:first-child {
-    margin-right: 50px;
 }
 
 .contacts__item {
