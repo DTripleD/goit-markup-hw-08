@@ -188,6 +188,7 @@ img {
 
 .contacts__info:first-child {
   margin-right: 50px;
+  margin-top: auto;
 }
 
 .contacts__item {
