@@ -1,3 +1,14 @@
+.container__header{
+    display: flex;
+    padding: 10px 15px;
+}
+
+.nav{
+    @media screen and (max-width: 767px){
+        display: none;
+    }
+}
+
 .page-header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -49,6 +60,15 @@
 .page-header__contacts {
     display: flex;
     margin-left: auto;
+
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+    @media screen and (min-width: 768px) {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-right: auto;
+    }
 }
 
 .contacts__info:first-child {
@@ -57,8 +77,7 @@
 
 .contacts__item {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+
 
     font-weight: 500;
     font-size: 14px;
@@ -68,6 +87,11 @@
     color: var(--brand-black);
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 1600px){
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
 }
 
 .contacts__item {

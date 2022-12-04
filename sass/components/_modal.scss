@@ -14,8 +14,8 @@
 
 .modal {
     position: absolute;
-    width: 528px;
-    min-height: 581px;
+    width: 450px;
+    min-height: 609px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -27,6 +27,11 @@
     border-radius: 4px;
 
     padding: 40px;
+
+    @media screen and (min-width: 1600px){
+        width: 528px;
+        min-height: 581px;
+    }
 }
 
 
@@ -68,13 +73,19 @@
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
 
     color: #212121;
     margin-bottom: 12px;
+
+    @media screen and (min-width: 1600px){
+        font-size: 20px;
+        line-height: 1.15;
+    }
 }
+
 
 .modal-list {
     gap: 10px;
@@ -86,7 +97,7 @@
 
     border-radius: 4px;
     height: 40px;
-    width: 448px;
+    width: 370px;
     padding-left: 42px;
     outline-offset: -1px;
 
@@ -94,6 +105,10 @@
 
     &:focus {
         outline-color: #2196F3;
+    }
+
+    @media screen and (min-width: 1600px) {
+        width: 448px;
     }
 }
 
@@ -119,7 +134,16 @@
     line-height: 1.17;
     letter-spacing: 0.01em;
     color: #757575;
+
+    @media screen and (min-width: 1600px){
+
+            font-size: 14px;
+            line-height: 1.71;
+        
+            letter-spacing: 0.03em;  
+    }
 }
+
 
 .modal__wrapper {
     position: relative;
@@ -165,8 +189,9 @@
     align-items: center;
 
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+
+    font-size: 12px;
+    line-height: 1.17;
 
     letter-spacing: 0.03em;
 
@@ -174,7 +199,18 @@
     user-select: none;
 
     gap: 7px;
+
+    @media screen and (min-width: 1600px){
+        font-size: 14px;
+        line-height: 1.71;
+    }
 }
+
+
+
+
+
+
 
 .agreement__checkbox {
     appearance: none;
