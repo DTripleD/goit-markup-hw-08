@@ -166,6 +166,11 @@ img {
   left: -5%;
   border-radius: 2px;
 }
+@media screen and (min-width: 768px) and (max-width: 1599px) {
+  .pages__link--current:after {
+    bottom: -3px;
+  }
+}
 
 .page-header__contacts {
   display: -webkit-box;
@@ -189,11 +194,6 @@ img {
             flex-direction: column;
     padding-top: 21px;
     padding-bottom: 21px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .page-header__contacts {
-    gap: 50px;
   }
 }
 
