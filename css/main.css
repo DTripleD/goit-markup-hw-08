@@ -244,6 +244,8 @@ img {
   background-size: cover;
   background-position: center;
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (min-width: 1200px) {
   .hero {
